@@ -1,10 +1,58 @@
+HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula19/04</title>
+
+    <style>
+        .tituloRosa{
+            color: deeppink;
+        }
+    </style>
+</head>
+<body>
 <h1>Folha de estilo(CSS)</h1>
 <hr>
-<h2>Referenciar CSS</h2>
+<pre>
+    inline
+    tag
+    arquivo externo
+    .Class
+    #id
+    tag
+    </pre>
+<hr>
+<h2>Aplicação CSS</h2>
 <h3>Inline</h3>
 <h4 style="color: blue;">Exemplo de inline </h4>
 <h3>TAG style</h3>
+<h4>Exemplo utilizando tag style</h4>
+<hr
 <H2>Modularização</H2>
-<h3>.class</h3>
-<h3>#id</h3>
+<h3 class="classe">.class</h3>
+<h3 id="exemploId">exemplo do id</h3>
 <h3>propria tag</h3>
+<h5> exemplo propria tag</h5>
+</body>
+</html>
+
+
+CSS
+body{
+    background-color: blanchedalmond;
+}
+.classe{
+    color: rgb(240, 25, 240);
+}
+#exemploId{
+    color: gold;
+    font-size: 20px;
+}
+h5{
+    color: rgb(137, 190, 243);
+    font-size: 20px;
+}
